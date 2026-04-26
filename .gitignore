@@ -1,0 +1,69 @@
+### --- ML/PYTHON SPECIFIC --- ###
+# Ignorar datasets (según tu requerimiento)
+*.csv
+*.arff
+*.json
+*.sql
+*.tsv
+
+# Ignorar modelos entrenados pesados
+*.pth
+*.pkl
+*.h5
+*.joblib
+*.onnx
+*.weights
+
+# Carpetas de entorno y dependencias
+venv/
+env/
+.env
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+### --- CONDA SPECIFIC --- ###
+# Si usas entornos locales de Conda
+.conda/
+conda-bld/
+
+### --- IDEs & SYSTEM (Ubuntu/Linux) --- ###
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+
+# VS Code y PyCharm
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### --- JUPYTER NOTEBOOKS --- ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
