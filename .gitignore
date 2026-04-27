@@ -5,6 +5,7 @@
 *.json
 *.sql
 *.tsv
+.txt
 
 # Ignorar modelos entrenados pesados
 *.pth
